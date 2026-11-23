@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0 16px 32px;
+  background: #1a1030;
+  color: #ece7f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 1.4em;
+  text-align: center;
+  margin: 24px 0 4px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #a99bd6;
+  font-size: 0.9em;
+  margin: 0 0 16px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  background: #2b1d4d;
+  border: 1px solid #453472;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin-top: 0;
+}
+
+.visor-contenedor {
+  background: #000;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#visor-camara {
+  width: 100%;
+  max-height: 360px;
+  display: block;
+}
+
+.visor-vacio {
+  color: #7a6ba8;
+  padding: 60px 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.estado {
+  color: #b79bff;
+  font-size: 0.9em;
+  margin: 12px 0 0;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.9em;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.btn-primario {
+  background: #9d7bff;
+  color: #1a1030;
+}
+
+.btn-secundario {
+  background: #6f5aa8;
+  color: #fff;
+}
+
+.btn-peligro {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* Tarjeta de aviso de permiso */
+#aviso-permiso {
+  border-color: #f59e0b;
+}
+
+#aviso-permiso li {
+  margin-bottom: 6px;
+}
+
+.nota {
+  color: #fbbf24;
+  font-size: 0.85em;
+}
+
+footer {
+  text-align: center;
+  color: #7a6ba8;
+  font-size: 0.8em;
+  margin-top: 24px;
+}
